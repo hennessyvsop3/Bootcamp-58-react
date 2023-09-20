@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledBackgroundTheme = styled.div`
+	background-color: ${props=> props.$bg};
 	display: grid;
 	place-content: center;
 	height: 100vh;
@@ -17,6 +18,7 @@ export const StyledColor = styled.li`
 	border-radius: 8px;
 	cursor: pointer;
 	transition: all 0.5s ease;
+	background: ${props =>props.$color};
 
 	&:hover {
 		background-color: lightcyan;

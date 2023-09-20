@@ -22,4 +22,5 @@ export const Flex = styled.div`
 	align-items: ${props => props.$items || 'stretch'};
 	min-height: ${props => props.$mh || 'auto'};
 	gap: ${props => props.$gap || '4px'};
+	width: ${props=>props.$width || 'auto'}
 `
